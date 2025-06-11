@@ -1,13 +1,13 @@
 
 # Site Settings
 title: Abigael Saruni | Electrical & Computer Engineer
-url: "https://nailantei.github.io" # Update with your actual domain if custom
+url: "https://nailantei.github.io" 
 baseurl: ""
 email: abbynaila26@gmail.com
 description: "Electrical & Computer Engineering Student | Cybersecurity & AI Specialist | Embedded Systems Developer"
 keywords: "cybersecurity, machine learning, embedded systems, AI, data science"
 
-# Author Profile
+
 author:
   name: "Abigael Saruni"
   avatar: "/assets/images/profile.jpg" # Use professional headshot
@@ -34,14 +34,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Site Enhancements
-minimal_mistakes_skin: "neon" # Consider: air, aqua, neon, or contrast
+
+minimal_mistakes_skin: "neon" 
 search: true
 read_time: true
 words_per_minute: 180
 show_author_profile: true
 
-# Navigation Defaults
+
 defaults:
   - scope:
       path: ""
