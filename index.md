@@ -3,4 +3,8 @@
 ---
 layout: home
 author_profile: true
+  - title: "Cybersecurity Projects"
+    url: "/projects/"
+  - title: "Lab Challenges" 
+    url: "/labs/"
 ---
