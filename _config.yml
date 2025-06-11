@@ -1,59 +1,56 @@
 
-title: Curriculum Vitae- Abigael Saruni
+# Site Settings
+title: Abigael Saruni | Electrical & Computer Engineer
+url: "https://nailantei.github.io" # Update with your actual domain if custom
+baseurl: ""
 email: abbynaila26@gmail.com
-description: "Electrical & Computer Engineering Student | Cybersecurity & AI Enthusiast"
-twitter_username: nylah_abbie
-github_username: s-nailantei
-minimal_mistakes_skin: default
-search: true
+description: "Electrical & Computer Engineering Student | Cybersecurity & AI Specialist | Embedded Systems Developer"
+keywords: "cybersecurity, machine learning, embedded systems, AI, data science"
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-
+# Author Profile
 author:
   name: "Abigael Saruni"
-  avatar: "/assets/images/My_Photo.jpg"
-  bio: "Electrical & Computer Engineering student with a passion for AI, cybersecurity, and embedded systems.."
+  avatar: "/assets/images/profile.jpg" # Use professional headshot
+  bio: "Electrical & Computer Engineering student specializing in AI applications for cybersecurity systems. Passionate about secure embedded systems development and machine learning."
+  location: "Nairobi, Kenya"
   links:
     - label: "LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/abigael-saruni-a26787356"
-    - label: "Twitter"
-      url: "https://x.com/nylah_abbie"
     - label: "GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/s-nailantei"
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Abigael-Saruni" # Add if available
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:abbynaila26@gmail.com"
 
-footer:
-  links:
-    - label: "Twitter"
-      url: "https://x.com/nylah_abbie"
-    - label: "GitHub"
-      url: "https://github.com/s-nailantei"
+# Technical Configuration
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Site Enhancements
+minimal_mistakes_skin: "neon" # Consider: air, aqua, neon, or contrast
+search: true
+read_time: true
+words_per_minute: 180
+show_author_profile: true
+
+# Navigation Defaults
 defaults:
-  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
   - scope:
       path: "_posts"
       type: posts
@@ -61,20 +58,42 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      toc: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# Content Organization
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  labs:
+    output: true
+    permalink: /labs/:path/
+
+# SEO Optimization
+seo:
+  type: Person
+  links:
+    - "https://github.com/s-nailantei"
+    - "https://linkedin.com/in/abigael-saruni-a26787356"
+
+# Footer
+footer:
+  copyright: "&copy; 2023 Abigael Saruni. All rights reserved."
+  links:
+    - label: "Privacy Policy"
+      url: "/privacy/"
+    - label: "GitHub"
+      url: "https://github.com/s-nailantei"
+    - label: "LinkedIn"
+      url: "https://linkedin.com/in/abigael-saruni-a26787356"
+
+# Performance
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+  - .vscode
