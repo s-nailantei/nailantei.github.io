@@ -1,9 +1,6 @@
 <img src="/assets/img/my-photo.jpg" alt="My_Photo" width="180" style="border-radius: 100px;">
 <img src="assets/img/your-photo.jpg" alt="Abigael Saruni" width="200" style="border-radius: 100px;">
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
 ---
