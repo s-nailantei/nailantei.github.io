@@ -1,5 +1,4 @@
 
-# Site Settings
 title: Abigael Saruni | Electrical & Computer Engineer
 url: "https://nailantei.github.io" 
 baseurl: ""
@@ -22,12 +21,12 @@ author:
       url: "https://github.com/s-nailantei"
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
-      url: "https://www.researchgate.net/profile/Abigael-Saruni" # Add if available
+      url: "https://www.researchgate.net/profile/Abigael-Saruni" 
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:abbynaila26@gmail.com"
 
-# Technical Configuration
+
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
@@ -71,7 +70,7 @@ collections:
     output: true
     permalink: /labs/:path/
 
-# SEO Optimization
+
 seo:
   type: Person
   links:
@@ -89,7 +88,7 @@ footer:
     - label: "LinkedIn"
       url: "https://linkedin.com/in/abigael-saruni-a26787356"
 
-# Performance
+
 exclude:
   - Gemfile
   - Gemfile.lock
