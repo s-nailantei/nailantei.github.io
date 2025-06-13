@@ -22,7 +22,7 @@ author:
       url: "https://github.com/s-nailantei"
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
-      url: "https://www.researchgate.net/profile/Abigael-Saruni" # Add if available
+      url: "https://www.researchgate.net/profile/Abigael-Saruni" 
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:abbynaila26@gmail.com"
